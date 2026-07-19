@@ -1,28 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "./assets/vite.svg";
+import heroImg from "./assets/hero.png";
+import "./App.css";
+import ImportAndExport from "./importAndExport";
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-    <Student></Student>
-    <Student></Student>
+     {/*  <Student name="Jodu" edu="5 pass" curStatus = "Single"></Student>
+      <Student></Student> */}
+      <ImportAndExport name= "D"></ImportAndExport>
+      <ImportAndExport name= "S"></ImportAndExport>
+      <ImportAndExport name= "T"></ImportAndExport>
     </>
-  )
+  );
 }
+//dynamic value
+/* function Student(props) {
+  return (
+    <>
+{      <div
+        style={{
+          border: "2px solid red",
+          borderRadius: "20px",
+          marginBottom: "15px",
+          padding: "13px",
+        }}
+      >
+        <h1>This is the student: {props.name}</h1>
+        <p>Education is: {props.edu}</p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>}
+    </>
+  );
+} */
 
-function Student(){
-  return(
-
-  <div>
-    <h1>This is the sutdent</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, saepe.</p>
-  </div>
-  )
-}
-
-export default App
+export default App;
