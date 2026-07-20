@@ -4,6 +4,7 @@ import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
 import ImportAndExport from "./importAndExport";
+import  Counter  from "./Counter";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
      {/*  <Student name="Jodu" edu="5 pass" curStatus = "Single"></Student>
       <Student></Student> */}
+      <Counter></Counter>
       <ImportAndExport name= "D"></ImportAndExport>
       <ImportAndExport name= "S"></ImportAndExport>
       <ImportAndExport name= "T"></ImportAndExport>
