@@ -6,6 +6,7 @@ import "./App.css";
 import ImportAndExport from "./importAndExport";
 import  Counter  from "./Counter";
 import Baller from "./Baller";
+import RunCount from "./RunCount";
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
     <>
      {/*  <Student name="Jodu" edu="5 pass" curStatus = "Single"></Student>
       <Student></Student> */}
+
+      <RunCount></RunCount>
       <Baller></Baller>
       <Counter></Counter>
       <ImportAndExport name= "D"></ImportAndExport>
