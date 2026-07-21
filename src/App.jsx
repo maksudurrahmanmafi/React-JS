@@ -1,29 +1,34 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
+
+import { Suspense } from "react";
 import "./App.css";
-import ImportAndExport from "./importAndExport";
+/* import ImportAndExport from "./importAndExport";
 import  Counter  from "./Counter";
 import Baller from "./Baller";
-import RunCount from "./RunCount";
+import RunCount from "./RunCount"; */
+ import Countries from './API/Component/Countries'
 
 function App() {
+    /* Load country from api */
+    const countries = fetch('https://openapi.programming-hero.com/api/all').then(res => res.json())
+    return(
+      <Suspense fallback = {<p>waiting for loading data ⌛️ </p>}>
+        <Countries countries = {countries}> </Countries>
+      </Suspense>   
+    )
+  //Import and Export component
+  // return (
+  //   <>
+  //    {/*  <Student name="Jodu" edu="5 pass" curStatus = "Single"></Student>
+  //     <Student></Student> */}
 
-
-  return (
-    <>
-     {/*  <Student name="Jodu" edu="5 pass" curStatus = "Single"></Student>
-      <Student></Student> */}
-
-      <RunCount></RunCount>
-      <Baller></Baller>
-      <Counter></Counter>
-      <ImportAndExport name= "D"></ImportAndExport>
-      <ImportAndExport name= "S"></ImportAndExport>
-      <ImportAndExport name= "T"></ImportAndExport>
-    </>
-  );
+  //     <RunCount></RunCount>
+  //     <Baller></Baller>
+  //     <Counter></Counter>
+  //     <ImportAndExport name= "D"></ImportAndExport>
+  //     <ImportAndExport name= "S"></ImportAndExport>
+  //     <ImportAndExport name= "T"></ImportAndExport>
+  //   </>
+  // );
 }
 //dynamic value
 /* function Student(props) {
