@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "img": "https://i.ibb.co.com/Yg135YQ/1.jpg",
+    "country": "India",
+    "position": "Batsman",
+    "rating": 96,
+    "battingStyle": "Right-hand Bat",
+    "price": 2500000
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "img": "https://i.ibb.co.com/LDDzwTtS/2.jpg",
+    "country": "Pakistan",
+    "position": "Batsman",
+    "rating": 95,
+    "battingStyle": "Right-hand Bat",
+    "price": 2400000
+  },
+  {
+    "id": 3,
+    "name": "Jos Buttler",
+    "img": "https://i.ibb.co.com/rff1RdGy/3.jpg",
+    "country": "England",
+    "position": "Wicket Keeper",
+    "rating": 93,
+    "battingStyle": "Right-hand Bat",
+    "price": 2200000
+  },
+  {
+    "id": 4,
+    "name": "Shakib Al Hasan",
+    "img": "https://i.ibb.co.com/Swwh14cL/4.jpg",
+    "country": "Bangladesh",
+    "position": "All-rounder",
+    "rating": 94,
+    "battingStyle": "Left-hand Bat",
+    "price": 2300000
+  },
+  {
+    "id": 5,
+    "name": "Ben Stokes",
+    "img": "https://i.ibb.co.com/8gY8Kzmg/5.jpg",
+    "country": "England",
+    "position": "All-rounder",
+    "rating": 94,
+    "battingStyle": "Left-hand Bat",
+    "price": 2350000
+  },
+  {
+    "id": 6,
+    "name": "Hardik Pandya",
+    "img": "https://i.ibb.co.com/KxTLKyP3/6.jpg",
+    "country": "India",
+    "position": "All-rounder",
+    "rating": 92,
+    "battingStyle": "Right-hand Bat",
+    "price": 2250000
+  },
+  {
+    "id": 7,
+    "name": "Andre Russell",
+    "img": "https://i.ibb.co.com/C5ZhQgb6/7.jpg",
+    "country": "West Indies",
+    "position": "All-rounder",
+    "rating": 95,
+    "battingStyle": "Right-hand Bat",
+    "price": 2500000
+  },
+{
+    "id": 8,
+    "name": "Taskin Ahmed",
+    "img": "https://i.ibb.co.com/rKn3Z4Jf/8.jpg",
+    "country": "Bangladesh",
+    "position": "Bowler",
+    "rating": 91,
+    "battingStyle": "Right-hand Bat",
+    "price": 1800000
+  },
+  {
+    "id": 9,
+    "name": "Mustafizur Rahman",
+    "img": "https://i.ibb.co.com/20r5SDSn/9.jpg",
+    "country": "Bangladesh",
+    "position": "Bowler",
+    "rating": 92,
+    "battingStyle": "Left-hand Bat",
+    "price": 2000000
+  },
+  {
+    "id": 10,
+    "name": "Mehidy Hasan Miraz",
+    "img": "https://i.ibb.co.com/84r3vjbp/10.jpg",
+    "country": "Bangladesh",
+    "position": "All-rounder",
+    "rating": 93,
+    "battingStyle": "Right-hand Bat",
+    "price": 2200000
+  },
+  {
+    "id": 11,
+    "name": "Litton Das",
+    "img": "https://i.ibb.co.com/6JP9gvdr/11.jpg",
+    "country": "Bangladesh",
+    "position": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-hand Bat",
+    "price": 2100000
+  },
+  {
+    "id": 12,
+    "name": "Mushfiqur Rahim",
+    "img": "https://i.ibb.co.com/27BpytzF/12.jpg",
+    "country": "Bangladesh",
+    "position": "Wicket Keeper",
+    "rating": 92,
+    "battingStyle": "Right-hand Bat",
+    "price": 2150000
+  }
+]
+
+
+
+
+
+
+
