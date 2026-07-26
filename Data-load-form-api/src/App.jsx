@@ -1,18 +1,20 @@
 import { Suspense } from "react";
 import "./App.css";
-import Ligts from "./Components/Ligts/Ligts";
 
-function App() {
-  const jsonData = fetch('/light.json').then(res => res.json())
-  return (
-    <div>
-    
-      {/* <Ligts></Ligts> */}
-      <Suspense fallback = " Data are loading ... ">
-        <Ligts jsonData = {jsonData}></Ligts>
-      </Suspense>
-    </div>
-  );
+import Products from "./Product/Products";
+
+
+
+function App(){
+  const productApi = fetch('https://fakestoreapi.com/products').then(res => res.json())
+  return(
+    <Suspense fallback = "Products are comming ...">
+       <Products catsApi = {productApi}>
+
+    </Products>
+    </Suspense>
+   
+  )
 }
 
 export default App;
