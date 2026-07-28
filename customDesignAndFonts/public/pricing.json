@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "plan": "Basic",
+    "price": 9,
+    "currency": "$",
+    "duration": "month",
+    "description": "Perfect for individuals getting started.",
+    "features": [
+      "1 User",
+      "5 Projects",
+      "10 GB Storage",
+      "Email Support"
+    ],
+    "recommended": false
+  },
+  {
+    "id": 2,
+    "plan": "Pro",
+    "price": 29,
+    "currency": "$",
+    "duration": "month",
+    "description": "Best for freelancers and small teams.",
+    "features": [
+      "10 Users",
+      "Unlimited Projects",
+      "100 GB Storage",
+      "Priority Support",
+      "Analytics Dashboard"
+    ],
+    "recommended": true
+  },
+  {
+    "id": 3,
+    "plan": "Business",
+    "price": 79,
+    "currency": "$",
+    "duration": "month",
+    "description": "For growing businesses and organizations.",
+    "features": [
+      "50 Users",
+      "Unlimited Projects",
+      "1 TB Storage",
+      "24/7 Support",
+      "Advanced Analytics",
+      "Custom Domain"
+    ],
+    "recommended": false
+  },
+  {
+    "id": 4,
+    "plan": "Enterprise",
+    "price": 199,
+    "currency": "$",
+    "duration": "month",
+    "description": "Custom solutions for large enterprises.",
+    "features": [
+      "Unlimited Users",
+      "Unlimited Storage",
+      "Dedicated Account Manager",
+      "24/7 Premium Support",
+      "Custom Integrations",
+      "API Access"
+    ],
+    "recommended": false
+  }
+]
