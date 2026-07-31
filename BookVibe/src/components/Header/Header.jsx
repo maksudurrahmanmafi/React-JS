@@ -1,8 +1,14 @@
+import { Link } from "react-router";
+
 const Header = () => {
     const links = <>
-    <li className="hover:bg-base-200 m-2"><a>Home</a></li>
-    <li className="hover:bg-base-200 m-2"><a>Listed Books</a></li>
-    <li className="hover:bg-base-200 m-2"><a>Pages to Read</a></li>
+    <Link to="/" className="hover:bg-base-200 m-2">Home</Link>
+    <Link to="/about" className="hover:bg-base-200 m-2">About</Link>
+    <Link to="/books" className="hover:bg-base-200 m-2">Books</Link>
+
+
+    {/* <li className="hover:bg-base-200 m-2">Listed Books</li>
+    <li className="hover:bg-base-200 m-2">Pages to Read</li> */}
     </>
   return (
     <div className="navbar bg-base-100 shadow-sm">
