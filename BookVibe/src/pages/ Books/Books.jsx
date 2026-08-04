@@ -1,6 +1,7 @@
 import { Suspense, useState } from "react";
 import { useEffect } from "react";
 import Book from "../Book/Book";
+import { useLoaderData } from "react-router";
 
 const Books = () => {
      const [books, setBooks] = useState([]);
@@ -12,8 +13,13 @@ const Books = () => {
       .then((data) => {console.log(data); setBooks(data)});
   }, []); */
 
-  //   2. Type of loading data from local file
+    // 2. Type of loading data from local file
   const booksData = fetch("./booksData.json").then(res => res.json());
+
+  // 3rd. type of loading data
+
+  // const book = useLoaderData();
+  // console.log
 
   return (
     <div>
