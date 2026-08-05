@@ -37,8 +37,8 @@
     --bg: #16171d;
     --border: #2e303a;
     --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
+    --accent: #01b360;
+    --accent-bg: rgba(36, 245, 13, 0.896);
     --accent-border: rgba(192, 132, 252, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
     --shadow:
@@ -108,4 +108,21 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+
+nav a {
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+nav a.active {
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-bg);
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--accent-border);
+  color: black;
 }
